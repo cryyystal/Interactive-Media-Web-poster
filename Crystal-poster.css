@@ -1,12 +1,6 @@
 .background-image{
     width: 100%;
-    height: 100%;
-    background-image: url("circus-background.png");
-    background-position: left top;
-    background-repeat: no-repeat;
-/*    background-attachment: fixed;
-    background-size: cover;
-    background-color: pink;*/
+    height: auto;
 }
 
 
@@ -835,34 +829,7 @@
 
 
 
-#canvas {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-}
-.circus{
-  color: var(--bg);
-  position: relative;
-  font-size: 20vw;
-  line-height: 100vh;
-  margin: 0;
-  pointer-events: none;
-}
 
-body {
-  min-height: 100vh;
-  background: var(--fg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-:root {
-  --fg: #EAD07D;
-  --bg: #E7E7E7;
-}
 
 
 

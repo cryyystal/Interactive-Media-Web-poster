@@ -1,11 +1,12 @@
-body{
-    height: 100%;
+background-image{
+    width: 100%;
+    height: 100vh;
     background-image: url("circus-background.png");
-    background-position: center top;
+    background-position: left top;
     background-repeat: no-repeat;
-/*    background-attachment: fixed;*/
+/*    background-attachment: fixed;
     background-size: cover;
-    background-color: pink;
+    background-color: pink;*/
 }
 
 
@@ -830,6 +831,13 @@ body{
     font-size: 20pt;
     color: ;
 }
+
+
+
+
+
+
+
 
 
 

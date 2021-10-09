@@ -842,7 +842,7 @@
   top: 0;
   left: 0;
 }
-h1 {
+.circus{
   color: var(--bg);
   position: relative;
   font-size: 20vw;
@@ -850,6 +850,7 @@ h1 {
   margin: 0;
   pointer-events: none;
 }
+
 body {
   min-height: 100vh;
   background: var(--fg);

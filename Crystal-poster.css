@@ -820,6 +820,16 @@ html{
     top: 100%;
 }
 
+.subtext{
+    position: absolute;
+    font-family: arial, bold;
+    font-size: 20pt;
+    z-index: 1;
+    top: 100%;
+    float: left;
+    left: 12%;
+}
+
 .event-info{
     position: absolute;
     font-family: arial, bold;
@@ -920,9 +930,9 @@ body {
 .balloon:nth-child(4){ background:hsl(59,50%,58%); animation-duration:4.5s; }
 .balloon:nth-child(4):before { color:hsl(59,30%,52%);  }
 
-/*.balloon:nth-child(5){ background:hsl(23,55%,57%); animation-duration:5s; }
+.balloon:nth-child(5){ background:hsl(23,55%,57%); animation-duration:5s; }
 .balloon:nth-child(5):before { color:hsl(23,44%,46%);  }
-*/
+
 
 .balloons{
     top: 600%;

@@ -858,7 +858,7 @@ audio{
 
 
 
-.balloon {
+.balloon{
     left: 20%;
     text-align: center; 
     display: inline-block;
@@ -866,7 +866,7 @@ audio{
     height: 145px;
     background: green;
     border-radius: 50%;
-    position: relative;
+/*    position: relative;*/
     box-shadow: inset -10px -10px 0 rgba(0,0,0,0.07);
     margin: 1%;
     transition: transform 0.5s ease;
@@ -874,12 +874,12 @@ audio{
     animation:balloons 4s ease-in-out infinite;
 }
 
-@keyframes balloons {
+@keyframes balloons{
   0%,100%{ transform:translateY(0) rotate(10deg); }
   50%{ transform:translateY(-50px) rotate(4deg); }
 }
 
-.balloon:before {
+.balloon:before{
   content:"▲";
   /*font-size:20px;*/
   color: seagreen;
@@ -891,7 +891,7 @@ audio{
   z-index:-100;
 }
 
-.balloon:after {
+.balloon:after{
     display:inline-block; 
     top:153px;
     position:absolute;
@@ -902,17 +902,40 @@ audio{
     background: black; 
 }
 
-.balloon:nth-child(2){ background:hsl(245,40%,65%); animation-duration:3.5s; }
-.balloon:nth-child(2):before { color:hsl(245,40%,65%);  }
+.balloon:nth-child(2){
+    background:hsl(245,40%,65%); 
+    animation-duration:3.5s; 
+}
 
-.balloon:nth-child(3){ background:hsl(139,50%,60%); animation-duration:3s; }
-.balloon:nth-child(3):before { color:hsl(139,30%,50%);  }
+.balloon:nth-child(2):before{
+    color:hsl(245,40%,65%);  
+}
 
-.balloon:nth-child(4){ background:hsl(59,50%,58%); animation-duration:4.5s; }
-.balloon:nth-child(4):before { color:hsl(59,30%,52%);  }
+.balloon:nth-child(3){ 
+    background:hsl(139,50%,60%); 
+    animation-duration:3s; 
+}
 
-.balloon:nth-child(5){ background:hsl(23,55%,57%); animation-duration:5s; }
-.balloon:nth-child(5):before { color:hsl(23,44%,46%);  }
+.balloon:nth-child(3):before{ 
+    color:hsl(139,30%,50%);
+}
+
+.balloon:nth-child(4){ 
+    background:hsl(59,50%,58%); 
+    animation-duration:4.5s; }
+
+.balloon:nth-child(4):before{ 
+    color:hsl(59,30%,52%);  
+}
+
+.balloon:nth-child(5){
+    background:hsl(23,55%,57%); 
+    animation-duration:5s; 
+}
+
+.balloon:nth-child(5):before{ 
+    color:hsl(23,44%,46%);
+}
 
 
 

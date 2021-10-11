@@ -813,7 +813,7 @@ html{
     margin: auto;
     font-family: arial, bold;
     font-size: 40pt;
-    z-index: 2;
+    z-index: 1;
     float: left;
     left: 12%;
 
@@ -824,7 +824,7 @@ html{
     position: absolute;
     font-family: arial, bold;
     font-size: 20pt;
-    z-index: 3;
+    z-index: 1;
     top: 150%;
     float: left;
     left: 12%;
@@ -835,7 +835,7 @@ audio{
     float: left;
     left: 12%;
     top: 8.33%;
-    z-index: 4;
+    z-index: 1;
 }
 
 
@@ -865,23 +865,22 @@ audio{
 
 
 body { 
-    background:hsl(50%, 85%); 
-    text-align:center; 
+    background: hsl(50%, 85%); 
+    text-align: center; 
 }
 
 .balloon {
-    display:inline-block;
-    width:120px;
-    height:145px;
+    display: inline-block;
+    width: 120px;
+    height: 145px;
     background: green;
-    border-radius:80%;
-    position:relative;
-    box-shadow:inset -10px -10px 0 rgba(0,0,0,0.07);
-    margin:20px 30px;
-    transition:transform 0.5s ease;
-    z-index:10;
-    animation:balloons 4s ease-in-out infinite;
-    transform-origin:bottom center;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: inset -10px -10px 0 rgba(0,0,0,0.07);
+    margin: 10px;
+    transition: transform 0.5s ease;
+    z-index: 1;
+/*    animation:balloons 4s ease-in-out infinite;*/
 }
 
 @keyframes balloons {
@@ -892,7 +891,7 @@ body {
 
 .balloon:before {
   content:"▲";
-  font-size:20px;
+  /*font-size:20px;*/
   color:hsl(215,30%,50%);
   display:block;
   text-align:center;
@@ -921,9 +920,9 @@ body {
 .balloon:nth-child(4){ background:hsl(59,50%,58%); animation-duration:4.5s; }
 .balloon:nth-child(4):before { color:hsl(59,30%,52%);  }
 
-.balloon:nth-child(5){ background:hsl(23,55%,57%); animation-duration:5s; }
+/*.balloon:nth-child(5){ background:hsl(23,55%,57%); animation-duration:5s; }
 .balloon:nth-child(5):before { color:hsl(23,44%,46%);  }
-
+*/
 
 .balloons{
     top: 600%;

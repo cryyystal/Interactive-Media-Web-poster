@@ -9,7 +9,7 @@ img{
 }
 
 html{
-    scroll-behavior: ;
+    scroll-behavior: smooth;
 }
 
 
@@ -858,19 +858,22 @@ audio{
 
 
 
+
+
+
 .balloon{
-    left: 20%;
-    text-align: center; 
-    display: inline-block;
     width: 120px;
     height: 145px;
     background: green;
     border-radius: 50%;
-/*    position: relative;*/
+    position: relative;
     box-shadow: inset -10px -10px 0 rgba(0,0,0,0.07);
     margin: 1%;
+    float: left;
+    left: 20%;
+    text-align: center; 
     transition: transform 0.5s ease;
-    z-index: 1;
+    z-index: 5;
     animation:balloons 4s ease-in-out infinite;
 }
 
@@ -883,22 +886,22 @@ audio{
   content:"▲";
   /*font-size:20px;*/
   color: seagreen;
-  display:block;
-  text-align:center;
-  width:100%;
-  position:absolute;
-  bottom:-12px;
-  z-index:-100;
+  display: block;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: -12px;
+  z-index: -100;
 }
 
 .balloon:after{
-    display:inline-block; 
-    top:153px;
-    position:absolute;
-    height:250px;
-    width:1px;
-    margin:0 auto;
-    content:"";
+    display: inline-block; 
+    top: 153px;
+    position: absolute;
+    height: 250px;
+    width: 1px;
+    margin: 0 auto;
+    content: "";
     background: black; 
 }
 
@@ -936,6 +939,15 @@ audio{
 .balloon:nth-child(5):before{ 
     color:hsl(23,44%,46%);
 }
+
+
+
+
+
+
+
+
+
 
 
 

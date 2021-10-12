@@ -847,13 +847,14 @@ audio{
     z-index: 1;
 }
 
-button{
+/*button{
     border-radius: 300px;
-}
+}*/
 
 
 .circle-clip-1{
-    size: 20%;
+    width: 100%;
+    
     clip-path: circle(200px at center);
     position: absolute;
     z-index: 1;
@@ -866,9 +867,7 @@ button{
 
 
 
-
-
-/*.balloon{
+.balloon{
     width: 120px;
     height: 130px;
     background: green;
@@ -948,7 +947,7 @@ button{
 
 .balloons{
 
-}*/
+}
 
 
 

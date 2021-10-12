@@ -798,9 +798,9 @@ html{
 
 
 .circus{
-    float: left;
     position: absolute;
     left: 12%;
+    right: 12%;
     top: 60%;
     right: 10%;
     z-index: 1;
@@ -861,9 +861,9 @@ audio{
 
 
 
-.balloon{
+/*.balloon{
     width: 120px;
-    height: 145px;
+    height: 130px;
     background: green;
     border-radius: 50%;
     position: relative;
@@ -884,7 +884,7 @@ audio{
 
 .balloon:before{
   content:"▲";
-  /*font-size:20px;*/
+  font-size:20px;
   color: seagreen;
   display: block;
   text-align: center;
@@ -896,11 +896,10 @@ audio{
 
 .balloon:after{
     display: inline-block; 
-    top: 153px;
+    top: 136.5px;
     position: absolute;
-    height: 250px;
+    height: 300px;
     width: 1px;
-    margin: 0 auto;
     content: "";
     background: black; 
 }
@@ -939,6 +938,10 @@ audio{
 .balloon:nth-child(5):before{ 
     color:hsl(23,44%,46%);
 }
+
+.balloons{
+
+}*/
 
 
 

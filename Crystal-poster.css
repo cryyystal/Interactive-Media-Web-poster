@@ -805,6 +805,10 @@
     z-index: 1;
 }
 
+.circus:hover,{
+    cursor: url("elephant-cursor.png"), default;
+}
+
 
 .welcome{
     position: absolute;
@@ -897,14 +901,6 @@ audio{
 
 #clown-up{
     transform: rotateX(180deg);
-}
-
-/*html{
-    cursor: url("elephant-cursor.png"), auto;
-}
-*/
-.circus:hover, html{
-    cursor: url('elephant-cursor.png'), auto;
 }
 
 

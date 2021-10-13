@@ -4,11 +4,12 @@
     position: relative;
     background-size: cover;
     background-position: center;
-    margin: 0;
-    padding: 0;
 }
 
-
+.letter{
+    width: 100%;
+    height: 100%;
+}
 
 
 
@@ -795,7 +796,7 @@
 
 
 
-
+/*
 .circus{
     position: absolute;
     left: 12%;
@@ -803,7 +804,7 @@
     top: 60%;
     right: 10%;
     z-index: 1;
-}
+}*/
 
 .circus:hover,{
     cursor: url("elephant-cursor.png"), default;

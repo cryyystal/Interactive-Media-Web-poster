@@ -822,17 +822,18 @@ html{
 .subtext{
     position: absolute;
     font-family: arial, bold;
-    font-size: 20pt;
+    font-size: 30pt;
     z-index: 1;
     top: 110%;
     float: left;
     left: 12%;
+    right: 10pt;
 }
 
 .event-info{
     position: absolute;
     font-family: arial, bold;
-    font-size: 20pt;
+    font-size: 30pt;
     z-index: 1;
     top: 150%;
     float: left;

@@ -910,11 +910,6 @@ audio{
     background: black; 
 }
 
-.balloon:nth-child(3){
-    background:hsl(245,40%,65%); 
-    animation-duration:3.5s; 
-}
-
 .balloons{
 
 }

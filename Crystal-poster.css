@@ -799,7 +799,7 @@ html{
     left: 12%;
     right: 12%;
     top: 60%;
-    right: 10%;
+/*    right: 10%;*/
     z-index: 1;
 }
 
@@ -840,8 +840,8 @@ html{
     top: 150%;
     float: left;
     left: 12%;
-      width: 100%;
-  height: auto;
+/*      width: 100%;
+  height: auto;*/
 }
 
 audio{
@@ -852,13 +852,23 @@ audio{
     background-position: center;
     margin: 0;
     padding: 0;
-   /* z-index: 1;*/
+    z-index: 1;
 }
 
-
 .circle-clip-1{
-    width: 100%;
-    clip-path: circle(200px at center);
+    top: 200%;
+/*    left: 15%;*/
+/*    right: 75%;*/
+    width: 20%;
+    clip-path: circle(130px at center);
+    position: absolute;
+    z-index: 1;
+}
+
+.circle-clip-2{
+    top: 250%;
+    width: 20%;
+    clip-path: circle(130px at center);
     position: absolute;
     z-index: 1;
 }

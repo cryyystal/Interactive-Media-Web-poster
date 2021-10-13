@@ -1,3 +1,6 @@
-function myFunction() {
-  location.replace("https://www.cirquedusoleil.com")
-}
+// function myFunction() {
+//   location.replace("https://www.cirquedusoleil.com")
+// }
+// if myFunction = click {
+  
+// }

@@ -852,67 +852,58 @@ audio{
 }*/
 
 
-.circle-clip-1{
+/*.circle-clip-1{
     width: 100%;
-    
     clip-path: circle(200px at center);
     position: absolute;
     z-index: 1;
+}*/
+
+.flip-clown{
+    left: 12%;
+    background-color: transparent;
+    width: 419.0328px;
+    height: 546.2682px;
+    perspective: 1000px;
+    z-index: 1;
 }
 
+.flip-clown:hover .flipping-clown-inner{
+  transform: rotateX(180deg);
+}
 
+#clown-stand{
+    background-colour: transparent;
+}
 
-
-
-
-
-
-.balloon{
-    width: 120px;
-    height: 130px;
-    background: green;
-    border-radius: 50%;
+.flipping-clown-inner{
     position: relative;
-    box-shadow: inset -10px -10px 0 rgba(0,0,0,0.07);
-    margin: 1%;
-    float: left;
-    left: 20%;
-    text-align: center; 
-    transition: transform 0.5s ease;
-    z-index: 5;
-    animation:balloons 4s ease-in-out infinite;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
 
-@keyframes balloons{
-  0%,100%{ transform:translateY(0) rotate(10deg); }
-  50%{ transform:translateY(-50px) rotate(4deg); }
-}
-
-.balloon:before{
-  content:"▲";
-  font-size:20px;
-  color: seagreen;
-  display: block;
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  bottom: -12px;
-  z-index: -100;
-}
-
-.balloon:after{
-    display: inline-block; 
-    top: 136.5px;
+#clown-stand, #clown-up{
     position: absolute;
-    height: 300px;
-    width: 1px;
-    content: "";
-    background: black; 
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
 }
 
-.balloons{
-
+#clown-up{
+    transform: rotateX(180deg);
 }
+
+
+
+
+
+
+
+
+
 
 
 

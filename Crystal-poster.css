@@ -855,22 +855,16 @@ audio{
    /* z-index: 1;*/
 }
 
-/*button{
-    border-radius: 300px;
-}*/
 
-
-/*.circle-clip-1{
+.circle-clip-1{
     width: 100%;
     clip-path: circle(200px at center);
     position: absolute;
     z-index: 1;
-}*/
+}
 
 .flip-clown{
-    left: 10%;
-    top: ;
-/*    background-color: transparent;*/
+/*    left: 15%;*/
     width: 419.0328px;
     height: 546.2682px;
     perspective: 1000px;
@@ -880,10 +874,6 @@ audio{
 .flip-clown:hover .flipping-clown-inner{
   transform: rotateX(180deg);
 }
-
-/*#clown-stand{
-    background-colour: transparent;
-}*/
 
 .flipping-clown-inner{
     position: absolute;
@@ -904,8 +894,6 @@ audio{
 #clown-up{
     transform: rotateX(180deg);
 }
-
-.
 
 
 

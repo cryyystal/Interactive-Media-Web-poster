@@ -864,17 +864,18 @@ audio{
     z-index: 1;
 }
 
-/*.circle-clip-2{
+.circle-clip-2{
     top: 250%;
     width: 20%;
     clip-path: circle(130px at center);
     position: absolute;
     z-index: 2;
-}*/
+}
 
 .flip-clown{
-/*    left: 15%;*/
-    position: relative;
+
+    left: 17%;
+    position: absolute;
     width: 419.0328px;
     height: 546.2682px;
     perspective: 700px;

@@ -852,6 +852,17 @@ html{
     right: 40%;
 }
 
+.universoul{
+    position: absolute;
+    font-family: arial, bold;
+    font-size: 30pt;
+    z-index: 1;
+    top: 315%;
+    float: left;
+    left: 40%;
+    right: 10%;
+}
+
 audio{
     top: 10%;
     right: 90%;
@@ -880,6 +891,16 @@ audio{
     opacity: 20%;
 }
 
+.circle-clip-3{
+    top: 315%;
+    left: 8%;
+    width: 30%;
+    clip-path: circle(130px at center);
+    position: absolute;
+    z-index: 1;
+    opacity: 20%;
+}
+
 .circle-clip-1:hover{
     opacity: 1;
     background-color: rgba(255, 0, 0, 0.4);
@@ -887,6 +908,12 @@ audio{
 }
 
 .circle-clip-2:hover{
+    opacity: 1;
+    background-color: rgba(255, 0, 0, 0.4);
+    transition: opacity .5s;
+}
+
+.circle-clip-3:hover{
     opacity: 1;
     background-color: rgba(255, 0, 0, 0.4);
     transition: opacity .5s;

@@ -854,6 +854,7 @@ html{
 
 audio{
     top: 10%;
+    right: 90%;
     left: 10%;
     position: absolute;
     z-index: 1;

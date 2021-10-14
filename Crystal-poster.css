@@ -806,10 +806,6 @@ html{
     z-index: 1;
 }
 
-/*.circus:hover,{
-    cursor: url("elephant-cursor.png"), default;
-}*/
-
 
 .welcome{
     position: absolute;
@@ -818,10 +814,9 @@ html{
     font-size: 40pt;
     z-index: 1;
     float: left;
-    left: 12%;
-    top: 100%; 
-/*      width: 100%;
-  height: auto;*/
+    left: 10%;
+    right: 10%;
+    top: 107%;
 }
 
 .subtext{
@@ -831,20 +826,30 @@ html{
     z-index: 1;
     top: 110%;
     float: left;
-    left: 12%;
+    left: 10%;
     right: 10%;
 }
 
-.event-info{
+.cirque{
     position: absolute;
     font-family: arial, bold;
     font-size: 30pt;
     z-index: 1;
     top: 150%;
     float: left;
+    left: 40%;
+    right: 10%;
+}
+
+.big-apple-text{
+    position: absolute;
+    font-family: arial, bold;
+    font-size: 30pt;
+    z-index: 1;
+    top: 220%;
+    float: left;
     left: 12%;
-/*      width: 100%;
-  height: auto;*/
+    right: 40%;
 }
 
 audio{
@@ -855,25 +860,38 @@ audio{
 }
 
 .circle-clip-1{
-    top: 200%;
-/*    left: 15%;*/
-/*    right: 75%;*/
+    top: 153%;
+    left: 12%;
     width: 20%;
     clip-path: circle(130px at center);
     position: absolute;
     z-index: 1;
+    opacity: 20%;
 }
 
 .circle-clip-2{
-    top: 250%;
+    top: 225%;
+    right: 15%;
     width: 20%;
     clip-path: circle(130px at center);
     position: absolute;
     z-index: 2;
+    opacity: 20%;
+}
+
+.circle-clip-1:hover{
+    opacity: 1;
+    background-color: rgba(255, 0, 0, 0.4);
+    transition: opacity .5s;
+}
+
+.circle-clip-2:hover{
+    opacity: 1;
+    background-color: rgba(255, 0, 0, 0.4);
+    transition: opacity .5s;
 }
 
 .flip-clown{
-
     left: 17%;
     position: absolute;
     width: 419.0328px;

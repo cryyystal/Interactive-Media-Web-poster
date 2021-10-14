@@ -849,8 +849,7 @@ html{
 audio{
     top: 10%;
     left: 10%;
-    position: relative;
-    float: left;
+    position: absolute;
     z-index: 1;
 }
 
@@ -874,6 +873,7 @@ audio{
 
 .flip-clown{
 /*    left: 15%;*/
+    position: absolute;
     width: 419.0328px;
     height: 546.2682px;
     perspective: 1000px;
@@ -882,6 +882,7 @@ audio{
 
 .flip-clown:hover .flipping-clown-inner{
   transform: rotateX(180deg);
+  z-index: 1;
 }
 
 .flipping-clown-inner{
@@ -891,6 +892,7 @@ audio{
     text-align: center;
     transition: transform 0.5s;
     transform-style: preserve-3d;
+    z-index: 1;
 }
 
 #clown-stand, #clown-up{
@@ -898,10 +900,13 @@ audio{
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    z-index: 1;
 }
 
 #clown-up{
     transform: rotateX(180deg);
+    position: absolute;
+    z-index: 1;
 }
 
 

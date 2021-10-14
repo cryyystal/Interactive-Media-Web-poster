@@ -8,6 +8,8 @@ html{
     position: relative;
     background-size: cover;
     background-position: center;
+    margin: 0;
+    padding: 0;
 }
 
 .letter-c{
@@ -845,13 +847,10 @@ html{
 }
 
 audio{
-    width: 100%;
-    height: 100%;
+    top: 10%;
+    left: 10%;
     position: relative;
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    padding: 0;
+    float: left;
     z-index: 1;
 }
 
@@ -904,21 +903,6 @@ audio{
 #clown-up{
     transform: rotateX(180deg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
